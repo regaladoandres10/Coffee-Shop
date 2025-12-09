@@ -1,0 +1,766 @@
+[08-Dec-2025 13:16:55 Europe/Berlin] API Request: method=GET, resource=users, id=9, action=
+[08-Dec-2025 13:17:00 Europe/Berlin] API Request: method=PUT, resource=users, id=9, action=
+[08-Dec-2025 13:17:28 Europe/Berlin] API Request: method=GET, resource=users, id=8, action=
+[08-Dec-2025 13:17:34 Europe/Berlin] API Request: method=PUT, resource=users, id=8, action=
+[08-Dec-2025 13:26:54 Europe/Berlin] API Request: method=GET, resource=users, id=9, action=
+[08-Dec-2025 13:27:04 Europe/Berlin] API Request: method=PUT, resource=users, id=9, action=
+[08-Dec-2025 13:27:11 Europe/Berlin] API Request: method=DELETE, resource=users, id=9, action=
+[08-Dec-2025 13:27:59 Europe/Berlin] API Request: method=GET, resource=users, id=8, action=
+[08-Dec-2025 13:31:24 Europe/Berlin] API Request: method=GET, resource=users, id=8, action=
+[08-Dec-2025 13:31:35 Europe/Berlin] API Request: method=GET, resource=users, id=8, action=
+[08-Dec-2025 13:33:40 Europe/Berlin] API Request: method=GET, resource=users, id=8, action=
+[08-Dec-2025 13:34:18 Europe/Berlin] API Request: method=GET, resource=users, id=8, action=
+[08-Dec-2025 13:34:35 Europe/Berlin] API Request: method=GET, resource=users, id=8, action=
+[08-Dec-2025 13:34:37 Europe/Berlin] API Request: method=GET, resource=users, id=8, action=
+[08-Dec-2025 13:34:41 Europe/Berlin] API Request: method=GET, resource=users, id=3, action=
+[08-Dec-2025 13:34:47 Europe/Berlin] API Request: method=DELETE, resource=users, id=1, action=
+[08-Dec-2025 13:38:03 Europe/Berlin] API Request: method=POST, resource=auth, id=, action=register
+[08-Dec-2025 13:38:03 Europe/Berlin] Received data: Array
+(
+    [name] => Miranda
+    [nameUser] => miranda_zavala
+    [phone] => 4458786565
+    [password] => 12345
+    [confirmPassword] => 12345
+    [role] => Administrador
+)
+
+[08-Dec-2025 13:38:03 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\UserController.php on line 26
+[08-Dec-2025 13:38:03 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\UserController.php on line 27
+[08-Dec-2025 13:38:03 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\UserController.php on line 28
+[08-Dec-2025 13:38:03 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\UserController.php on line 33
+[08-Dec-2025 13:38:03 Europe/Berlin] Ejecutando SQL createUser()
+[08-Dec-2025 13:38:03 Europe/Berlin] Resultado execute(): 0
+[08-Dec-2025 13:38:21 Europe/Berlin] API Request: method=POST, resource=auth, id=, action=login
+[08-Dec-2025 13:38:21 Europe/Berlin] Received data: Array
+(
+    [nameUser] => miranda_zavala
+    [password] => 12345
+)
+
+[08-Dec-2025 13:38:21 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\UserController.php on line 119
+[08-Dec-2025 13:38:21 Europe/Berlin] PHP Warning:  Undefined array key "roleName" in C:\Restaurante - Cafeteria\includes\SessionManager.php on line 43
+[08-Dec-2025 13:38:21 Europe/Berlin] Login successful for user: miranda_zavala
+[08-Dec-2025 14:01:03 Europe/Berlin] PHP Warning:  require_once(C:\Restaurante - Cafeteria\includes\classes/SessionManager.php): Failed to open stream: No such file or directory in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php on line 3
+[08-Dec-2025 14:01:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Restaurante - Cafeteria\includes\classes/SessionManager.php' (include_path='C:\xampp\php\PEAR') in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php:3
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\controllers\ProductController.php(4): require_once()
+#1 C:\Restaurante - Cafeteria\public\api.php(19): require_once('C:\\Restaurante ...')
+#2 {main}
+  thrown in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php on line 3
+[08-Dec-2025 14:01:08 Europe/Berlin] PHP Warning:  require_once(C:\Restaurante - Cafeteria\includes\classes/SessionManager.php): Failed to open stream: No such file or directory in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php on line 3
+[08-Dec-2025 14:01:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Restaurante - Cafeteria\includes\classes/SessionManager.php' (include_path='C:\xampp\php\PEAR') in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php:3
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\controllers\ProductController.php(4): require_once()
+#1 C:\Restaurante - Cafeteria\public\api.php(19): require_once('C:\\Restaurante ...')
+#2 {main}
+  thrown in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php on line 3
+[08-Dec-2025 14:01:09 Europe/Berlin] PHP Warning:  require_once(C:\Restaurante - Cafeteria\includes\classes/SessionManager.php): Failed to open stream: No such file or directory in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php on line 3
+[08-Dec-2025 14:01:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Restaurante - Cafeteria\includes\classes/SessionManager.php' (include_path='C:\xampp\php\PEAR') in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php:3
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\controllers\ProductController.php(4): require_once()
+#1 C:\Restaurante - Cafeteria\public\api.php(19): require_once('C:\\Restaurante ...')
+#2 {main}
+  thrown in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php on line 3
+[08-Dec-2025 14:01:10 Europe/Berlin] PHP Warning:  require_once(C:\Restaurante - Cafeteria\includes\classes/SessionManager.php): Failed to open stream: No such file or directory in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php on line 3
+[08-Dec-2025 14:01:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Restaurante - Cafeteria\includes\classes/SessionManager.php' (include_path='C:\xampp\php\PEAR') in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php:3
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\controllers\ProductController.php(4): require_once()
+#1 C:\Restaurante - Cafeteria\public\api.php(19): require_once('C:\\Restaurante ...')
+#2 {main}
+  thrown in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php on line 3
+[08-Dec-2025 14:01:10 Europe/Berlin] PHP Warning:  require_once(C:\Restaurante - Cafeteria\includes\classes/SessionManager.php): Failed to open stream: No such file or directory in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php on line 3
+[08-Dec-2025 14:01:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Restaurante - Cafeteria\includes\classes/SessionManager.php' (include_path='C:\xampp\php\PEAR') in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php:3
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\controllers\ProductController.php(4): require_once()
+#1 C:\Restaurante - Cafeteria\public\api.php(19): require_once('C:\\Restaurante ...')
+#2 {main}
+  thrown in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php on line 3
+[08-Dec-2025 14:01:47 Europe/Berlin] PHP Warning:  require_once(C:\Restaurante - Cafeteria\includes\classes/SessionManager.php): Failed to open stream: No such file or directory in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php on line 3
+[08-Dec-2025 14:01:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Restaurante - Cafeteria\includes\classes/SessionManager.php' (include_path='C:\xampp\php\PEAR') in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php:3
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\controllers\ProductController.php(4): require_once()
+#1 C:\Restaurante - Cafeteria\public\api.php(19): require_once('C:\\Restaurante ...')
+#2 {main}
+  thrown in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php on line 3
+[08-Dec-2025 14:02:33 Europe/Berlin] PHP Warning:  require_once(C:\Restaurante - Cafeteria\includes\classes/SessionManager.php): Failed to open stream: No such file or directory in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php on line 3
+[08-Dec-2025 14:02:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Restaurante - Cafeteria\includes\classes/SessionManager.php' (include_path='C:\xampp\php\PEAR') in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php:3
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\controllers\ProductController.php(4): require_once()
+#1 C:\Restaurante - Cafeteria\public\api.php(19): require_once('C:\\Restaurante ...')
+#2 {main}
+  thrown in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php on line 3
+[08-Dec-2025 14:02:34 Europe/Berlin] PHP Warning:  require_once(C:\Restaurante - Cafeteria\includes\classes/SessionManager.php): Failed to open stream: No such file or directory in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php on line 3
+[08-Dec-2025 14:02:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Restaurante - Cafeteria\includes\classes/SessionManager.php' (include_path='C:\xampp\php\PEAR') in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php:3
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\controllers\ProductController.php(4): require_once()
+#1 C:\Restaurante - Cafeteria\public\api.php(19): require_once('C:\\Restaurante ...')
+#2 {main}
+  thrown in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php on line 3
+[08-Dec-2025 14:03:12 Europe/Berlin] PHP Warning:  require_once(C:\Restaurante - Cafeteria\includes\classes/SessionManager.php): Failed to open stream: No such file or directory in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php on line 3
+[08-Dec-2025 14:03:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Restaurante - Cafeteria\includes\classes/SessionManager.php' (include_path='C:\xampp\php\PEAR') in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php:3
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\controllers\ProductController.php(4): require_once()
+#1 C:\Restaurante - Cafeteria\public\api.php(19): require_once('C:\\Restaurante ...')
+#2 {main}
+  thrown in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php on line 3
+[08-Dec-2025 14:04:06 Europe/Berlin] PHP Warning:  require_once(C:\Restaurante - Cafeteria\includes\classes/SessionManager.php): Failed to open stream: No such file or directory in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php on line 3
+[08-Dec-2025 14:04:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Restaurante - Cafeteria\includes\classes/SessionManager.php' (include_path='C:\xampp\php\PEAR') in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php:3
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\controllers\ProductController.php(4): require_once()
+#1 C:\Restaurante - Cafeteria\public\api.php(19): require_once('C:\\Restaurante ...')
+#2 {main}
+  thrown in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php on line 3
+[08-Dec-2025 14:07:54 Europe/Berlin] PHP Warning:  require_once(C:\Restaurante - Cafeteria\includes\classes/SessionManager.php): Failed to open stream: No such file or directory in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php on line 3
+[08-Dec-2025 14:07:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Restaurante - Cafeteria\includes\classes/SessionManager.php' (include_path='C:\xampp\php\PEAR') in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php:3
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\controllers\ProductController.php(4): require_once()
+#1 C:\Restaurante - Cafeteria\public\api.php(19): require_once('C:\\Restaurante ...')
+#2 {main}
+  thrown in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php on line 3
+[08-Dec-2025 14:09:00 Europe/Berlin] PHP Warning:  require_once(C:\Restaurante - Cafeteria\includes\classes/SessionManager.php): Failed to open stream: No such file or directory in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php on line 3
+[08-Dec-2025 14:09:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Restaurante - Cafeteria\includes\classes/SessionManager.php' (include_path='C:\xampp\php\PEAR') in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php:3
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\controllers\ProductController.php(4): require_once()
+#1 C:\Restaurante - Cafeteria\public\api.php(19): require_once('C:\\Restaurante ...')
+#2 {main}
+  thrown in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php on line 3
+[08-Dec-2025 14:20:40 Europe/Berlin] PHP Warning:  require_once(C:\Restaurante - Cafeteria\includes\classes/SessionManager.php): Failed to open stream: No such file or directory in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php on line 3
+[08-Dec-2025 14:20:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Restaurante - Cafeteria\includes\classes/SessionManager.php' (include_path='C:\xampp\php\PEAR') in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php:3
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\controllers\ProductController.php(4): require_once()
+#1 C:\Restaurante - Cafeteria\public\api.php(19): require_once('C:\\Restaurante ...')
+#2 {main}
+  thrown in C:\Restaurante - Cafeteria\includes\classes\AuthManager.php on line 3
+[08-Dec-2025 14:22:57 Europe/Berlin] API Request: method=POST, resource=auth, id=, action=register
+[08-Dec-2025 14:22:57 Europe/Berlin] Received data: Array
+(
+    [name] => Omar
+    [nameUser] => omar_chaparro
+    [phone] => 4452321232
+    [password] => 12345
+    [confirmPassword] => 12345
+    [role] => Administrador
+)
+
+[08-Dec-2025 14:22:57 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\UserController.php on line 26
+[08-Dec-2025 14:22:57 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\UserController.php on line 27
+[08-Dec-2025 14:22:57 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\UserController.php on line 28
+[08-Dec-2025 14:22:57 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\UserController.php on line 33
+[08-Dec-2025 14:22:57 Europe/Berlin] Ejecutando SQL createUser()
+[08-Dec-2025 14:22:57 Europe/Berlin] Resultado execute(): 0
+[08-Dec-2025 14:23:11 Europe/Berlin] API Request: method=POST, resource=auth, id=, action=login
+[08-Dec-2025 14:23:11 Europe/Berlin] Received data: Array
+(
+    [nameUser] => omar_chaparro
+    [password] => 12345
+)
+
+[08-Dec-2025 14:23:11 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\UserController.php on line 119
+[08-Dec-2025 14:23:11 Europe/Berlin] PHP Warning:  Undefined array key "roleName" in C:\Restaurante - Cafeteria\includes\SessionManager.php on line 41
+[08-Dec-2025 14:23:11 Europe/Berlin] Login successful for user: omar_chaparro
+[08-Dec-2025 21:04:32 Europe/Berlin] API Request: method=POST, resource=auth, id=, action=register
+[08-Dec-2025 21:04:32 Europe/Berlin] Received data: Array
+(
+    [name] => Marco Polo
+    [nameUser] => marco_polo
+    [phone] => 4458971232
+    [password] => 12345
+    [confirmPassword] => 12345
+    [role] => Administrador
+)
+
+[08-Dec-2025 21:04:32 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\UserController.php on line 26
+[08-Dec-2025 21:04:32 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\UserController.php on line 27
+[08-Dec-2025 21:04:32 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\UserController.php on line 28
+[08-Dec-2025 21:04:32 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\UserController.php on line 33
+[08-Dec-2025 21:04:32 Europe/Berlin] Ejecutando SQL createUser()
+[08-Dec-2025 21:04:32 Europe/Berlin] Resultado execute(): 0
+[08-Dec-2025 21:04:40 Europe/Berlin] API Request: method=POST, resource=auth, id=, action=login
+[08-Dec-2025 21:04:40 Europe/Berlin] Received data: Array
+(
+    [nameUser] => marco_polo
+    [password] => 12345
+)
+
+[08-Dec-2025 21:04:40 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\UserController.php on line 119
+[08-Dec-2025 21:04:40 Europe/Berlin] PHP Warning:  Undefined array key "roleName" in C:\Restaurante - Cafeteria\includes\SessionManager.php on line 41
+[08-Dec-2025 21:04:40 Europe/Berlin] Login successful for user: marco_polo
+[08-Dec-2025 21:49:33 Europe/Berlin] API Request: method=GET, resource=auth, id=, action=register
+[08-Dec-2025 21:53:04 Europe/Berlin] API Request: method=POST, resource=auth, id=, action=register
+[08-Dec-2025 21:53:04 Europe/Berlin] Received data: Array
+(
+    [name] => Diego Jesus
+    [nameUser] => diego_jesus
+    [phone] => 4457861234
+    [password] => 12345
+    [confirmPassword] => 12345
+    [role] => Administrador
+)
+
+[08-Dec-2025 21:53:04 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\UserController.php on line 26
+[08-Dec-2025 21:53:04 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\UserController.php on line 27
+[08-Dec-2025 21:53:04 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\UserController.php on line 28
+[08-Dec-2025 21:53:04 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\UserController.php on line 33
+[08-Dec-2025 21:53:04 Europe/Berlin] Ejecutando SQL createUser()
+[08-Dec-2025 21:53:04 Europe/Berlin] Resultado execute(): 0
+[08-Dec-2025 21:53:42 Europe/Berlin] API Request: method=POST, resource=auth, id=, action=login
+[08-Dec-2025 21:53:42 Europe/Berlin] Received data: Array
+(
+    [nameUser] => diego_jesus
+    [password] => 12345
+)
+
+[08-Dec-2025 21:53:42 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\UserController.php on line 119
+[08-Dec-2025 21:53:42 Europe/Berlin] PHP Warning:  Undefined array key "roleName" in C:\Restaurante - Cafeteria\includes\SessionManager.php on line 41
+[08-Dec-2025 21:53:42 Europe/Berlin] Login successful for user: diego_jesus
+[08-Dec-2025 21:54:19 Europe/Berlin] API Request: method=POST, resource=users, id=, action=
+[08-Dec-2025 21:54:19 Europe/Berlin] Entrando a createUserFromAdmin()
+[08-Dec-2025 21:54:19 Europe/Berlin] Received data: Array
+(
+    [name] => Tito 
+    [nameUser] => tito_12
+    [phone] => 4451231231
+    [password] => 12345
+    [confirmPassword] => 12345
+    [role] => Administrador
+    [is_active] => 1
+)
+
+[08-Dec-2025 21:54:19 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\UserController.php on line 71
+[08-Dec-2025 21:54:19 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\UserController.php on line 72
+[08-Dec-2025 21:54:19 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\UserController.php on line 73
+[08-Dec-2025 21:54:19 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\UserController.php on line 79
+[08-Dec-2025 21:54:19 Europe/Berlin] POST recibido: Array
+(
+    [name] => Tito 
+    [nameUser] => tito_12
+    [phone] => 4451231231
+    [password] => 12345
+    [confirmPassword] => 12345
+    [role] => Administrador
+    [is_active] => 1
+)
+
+[08-Dec-2025 21:54:26 Europe/Berlin] API Request: method=POST, resource=users, id=, action=
+[08-Dec-2025 21:54:26 Europe/Berlin] Entrando a createUserFromAdmin()
+[08-Dec-2025 21:54:26 Europe/Berlin] Received data: Array
+(
+    [name] => Tito 
+    [nameUser] => tito_12
+    [phone] => 4451231231
+    [password] => 123456
+    [confirmPassword] => 123456
+    [role] => Administrador
+    [is_active] => 1
+)
+
+[08-Dec-2025 21:54:26 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\UserController.php on line 71
+[08-Dec-2025 21:54:26 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\UserController.php on line 72
+[08-Dec-2025 21:54:26 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\UserController.php on line 73
+[08-Dec-2025 21:54:26 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\UserController.php on line 79
+[08-Dec-2025 21:54:26 Europe/Berlin] POST recibido: Array
+(
+    [name] => Tito 
+    [nameUser] => tito_12
+    [phone] => 4451231231
+    [password] => 123456
+    [confirmPassword] => 123456
+    [role] => Administrador
+    [is_active] => 1
+)
+
+[08-Dec-2025 21:54:27 Europe/Berlin] Ejecutando SQL createUser()
+[08-Dec-2025 21:54:27 Europe/Berlin] Resultado execute(): 0
+[08-Dec-2025 21:54:40 Europe/Berlin] API Request: method=GET, resource=users, id=14, action=
+[08-Dec-2025 21:54:42 Europe/Berlin] API Request: method=GET, resource=users, id=14, action=
+[08-Dec-2025 21:54:48 Europe/Berlin] API Request: method=DELETE, resource=users, id=14, action=
+[08-Dec-2025 22:28:00 Europe/Berlin] API Request: method=GET, resource=categories, id=1, action=
+[08-Dec-2025 22:28:37 Europe/Berlin] API Request: method=GET, resource=categories, id=1, action=
+[08-Dec-2025 22:34:27 Europe/Berlin] API Request: method=GET, resource=categories, id=1, action=
+[08-Dec-2025 22:35:33 Europe/Berlin] API Request: method=GET, resource=categories, id=1, action=
+[08-Dec-2025 22:46:49 Europe/Berlin] API Request: method=GET, resource=categories, id=1, action=
+[08-Dec-2025 22:46:54 Europe/Berlin] API Request: method=GET, resource=categories, id=2, action=
+[08-Dec-2025 22:47:01 Europe/Berlin] API Request: method=GET, resource=categories, id=3, action=
+[08-Dec-2025 23:02:06 Europe/Berlin] API Request: method=POST, resource=categories, id=, action=
+[08-Dec-2025 23:02:06 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\CategoryController.php on line 152
+[08-Dec-2025 23:02:06 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\CategoryController.php on line 153
+[08-Dec-2025 23:02:06 Europe/Berlin] PHP Warning:  Undefined array key "isActive" in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 70
+[08-Dec-2025 23:02:24 Europe/Berlin] API Request: method=GET, resource=categories, id=4, action=
+[08-Dec-2025 23:18:18 Europe/Berlin] API Request: method=GET, resource=categories, id=4, action=
+[08-Dec-2025 23:18:21 Europe/Berlin] API Request: method=GET, resource=categories, id=1, action=
+[08-Dec-2025 23:18:24 Europe/Berlin] API Request: method=GET, resource=categories, id=2, action=
+[08-Dec-2025 23:23:43 Europe/Berlin] API Request: method=GET, resource=categories, id=4, action=
+[08-Dec-2025 23:23:52 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:23:52 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:23:53 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:23:53 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:23:53 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:23:53 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:23:53 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:23:53 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:23:53 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:23:53 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:23:53 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:23:53 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:23:53 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:23:53 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:23:54 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:23:54 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:23:54 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:23:54 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:23:54 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:23:54 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:23:54 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:23:54 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:23:54 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:23:54 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:23:57 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:23:57 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:23:58 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:23:58 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:23:58 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:23:58 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:23:59 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:23:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:23:59 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:23:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:23:59 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:23:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:23:59 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:23:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:23:59 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:23:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:23:59 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:23:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:23:59 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:23:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:24:00 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:24:00 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:24:00 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:24:00 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:24:00 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:24:00 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:24:00 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:24:00 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:24:13 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:24:13 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:24:14 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:24:14 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:24:14 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:24:14 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:24:14 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:24:14 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:24:14 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:24:14 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:24:14 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:24:14 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:24:15 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:24:15 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:24:15 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:24:15 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:24:15 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:24:15 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:24:15 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:24:15 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:26:16 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:26:16 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:26:21 Europe/Berlin] API Request: method=GET, resource=categories, id=4, action=
+[08-Dec-2025 23:26:29 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:26:29 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:26:30 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:26:30 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:26:30 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:26:30 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:26:30 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:26:30 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:26:30 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:26:30 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:26:30 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:26:30 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:26:30 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:26:30 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:26:31 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:26:31 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', NULL)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:30:19 Europe/Berlin] API Request: method=GET, resource=categories, id=4, action=
+[08-Dec-2025 23:30:24 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:30:24 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', 0)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:30:25 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:30:25 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', 0)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:30:25 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:30:25 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', 0)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:30:25 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:30:25 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', 0)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:30:26 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:30:26 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', 0)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:30:26 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:30:26 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', 0)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:30:26 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:30:26 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', 0)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:30:26 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:30:26 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', 0)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:32:14 Europe/Berlin] API Request: method=GET, resource=categories, id=4, action=
+[08-Dec-2025 23:32:22 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:32:22 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'isAvailable' in 'field list' in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:91
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(91): mysqli->prepare('UPDATE categori...')
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(105): CategoryModel->updateCategory(4, 'Almuerzo 2', 'Huevo a la mexi...', 0)
+#2 C:\Restaurante - Cafeteria\public\api.php(91): CategoryController->updateCategory('4')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 91
+[08-Dec-2025 23:36:46 Europe/Berlin] API Request: method=GET, resource=categories, id=4, action=
+[08-Dec-2025 23:36:48 Europe/Berlin] API Request: method=PUT, resource=categories, id=4, action=
+[08-Dec-2025 23:44:28 Europe/Berlin] API Request: method=DELETE, resource=categories, id=4, action=
+[08-Dec-2025 23:48:46 Europe/Berlin] API Request: method=POST, resource=categories, id=, action=
+[08-Dec-2025 23:48:46 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\CategoryController.php on line 160
+[08-Dec-2025 23:48:46 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\CategoryController.php on line 161
+[08-Dec-2025 23:48:46 Europe/Berlin] PHP Warning:  Undefined array key "isActive" in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 70
+[08-Dec-2025 23:49:38 Europe/Berlin] API Request: method=POST, resource=categories, id=, action=
+[08-Dec-2025 23:49:38 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\CategoryController.php on line 160
+[08-Dec-2025 23:49:38 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\Restaurante - Cafeteria\app\controllers\CategoryController.php on line 161
+[08-Dec-2025 23:49:38 Europe/Berlin] PHP Warning:  Undefined array key "isActive" in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 70
+[08-Dec-2025 23:49:46 Europe/Berlin] API Request: method=GET, resource=categories, id=1, action=
+[08-Dec-2025 23:49:50 Europe/Berlin] API Request: method=GET, resource=categories, id=1, action=
+[08-Dec-2025 23:50:10 Europe/Berlin] API Request: method=PUT, resource=categories, id=1, action=
+[08-Dec-2025 23:50:17 Europe/Berlin] API Request: method=DELETE, resource=categories, id=1, action=
+[08-Dec-2025 23:50:17 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_coffee_shop`.`products`, CONSTRAINT `products_ibfk_1` FOREIGN KEY (`categoryId`) REFERENCES `categories` (`idCategorie`)) in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:118
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(118): mysqli_stmt->execute()
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(132): CategoryModel->deleteCategory(1)
+#2 C:\Restaurante - Cafeteria\public\api.php(97): CategoryController->deleteCategory('1')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 118
+[08-Dec-2025 23:50:25 Europe/Berlin] API Request: method=DELETE, resource=categories, id=1, action=
+[08-Dec-2025 23:50:25 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_coffee_shop`.`products`, CONSTRAINT `products_ibfk_1` FOREIGN KEY (`categoryId`) REFERENCES `categories` (`idCategorie`)) in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:118
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(118): mysqli_stmt->execute()
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(132): CategoryModel->deleteCategory(1)
+#2 C:\Restaurante - Cafeteria\public\api.php(97): CategoryController->deleteCategory('1')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 118
+[08-Dec-2025 23:50:29 Europe/Berlin] API Request: method=DELETE, resource=categories, id=1, action=
+[08-Dec-2025 23:50:29 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_coffee_shop`.`products`, CONSTRAINT `products_ibfk_1` FOREIGN KEY (`categoryId`) REFERENCES `categories` (`idCategorie`)) in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php:118
+Stack trace:
+#0 C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php(118): mysqli_stmt->execute()
+#1 C:\Restaurante - Cafeteria\app\controllers\CategoryController.php(132): CategoryModel->deleteCategory(1)
+#2 C:\Restaurante - Cafeteria\public\api.php(97): CategoryController->deleteCategory('1')
+#3 {main}
+  thrown in C:\Restaurante - Cafeteria\app\models\Category\CategoryModel.php on line 118
